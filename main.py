@@ -41,4 +41,3 @@ with col3:
         st.subheader(f"{row['first name'].title()} {row['last name'].title()}")
         st.write(row["role"])
         st.image("images/" + row["image"])
-
